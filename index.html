@@ -15,13 +15,13 @@
     <h2>Filmes Populares</h2>
     <div class="input-container">
       <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
-      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon" id="movie-search-icon">
     </div>
     <div class="showOnlyFavorites">
       <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
       <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
     </div>
-    <div class="movies">
+    <div class="movies" id="movie-container">
       <div class="movie">
         <div class="movie-informations">
           <div class="movie-image">
@@ -46,6 +46,8 @@
         </div>
       </div>
 
+
+      
       <div class="movie">
         <div class="movie-informations">
           <div class="movie-image">
@@ -69,6 +71,8 @@
           <span>Bilbo Bolseiro terá de enfrentar uma jornada épica para retomar o Reino de Erebor, terra dos anões que foi conquistada há muito tempo pelo dragão Smaug. Com o apoio do mago Gandalf e um grupo de 13 anões, liderados pelo lendário guerreiro Thorin Escudo-de-Carvalho, Bilbo terá grandes desafios contra os poderosos Goblins e Orcs, além do traiçoeiro Gollum. Neste caminho, ele ganhará a posse do "precioso" anel, que está ligado ao destino de toda a Terra-Média, de uma maneira que não poderia imaginar.</span>
         </div>
       </div>
+
+
 
       <div class="movie">
         <div class="movie-informations">
@@ -95,5 +99,6 @@
       </div>
     </div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
